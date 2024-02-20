@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2023 Kevin Buzeau
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <!--
+      - Titles for the dialogs displayed as overlay.
+      - Allowed characters can be small due to save/delete/close buttons.
+      -->
+    <string name="dialog_overlay_title_debug_report">Báo cáo gỡ lỗi</string>
+
+    <!--
+      - Text for items in a list or vertical layout.
+      -  * Title should be short and concise.
+      -  * Desc can have more space to describe the title
+      -  * Error have the same space as desc
+      -->
+    <string name="item_title_report_total_duration">Tổng thời gian</string>
+    <string name="item_title_report_image_processed">Hình ảnh được xử lý</string>
+    <string name="item_title_report_avg_image_processing_duration">Thời gian xử lý trung bình cho mỗi hình ảnh</string>
+    <string name="item_title_report_total_event_trigger_count">Số lần kích hoạt sự kiện</string>
+    <string name="item_title_report_detection_count">Số lần phát hiện điều kiện</string>
+
+    <!--
+      - Section titles.
+      - Should be short and concise.
+      -->
+    <string name="section_title_report_timing_min">Tối thiểu</string>
+    <string name="section_title_report_timing_max">Tối đa</string>
+    <string name="section_title_report_timing_avg">Trung bình</string>
+    <string name="section_title_report_event_trigger_count">Số lần kích hoạt</string>
+    <string name="section_title_report_event_processing_count">Số lần xử lý</string>
+    <string name="section_title_report_condition_detected_count">Số điều kiện phát hiện</string>
+    <string name="section_title_report_condition_processing_count">Số điều kiện xử lý</string>
+    <string name="section_title_report_timing_title">Thời gian xử lý</string>
+    <string name="section_title_report_confidence_title">Tỷ lệ tự tin trong việc phát hiện</string>
+</resources>

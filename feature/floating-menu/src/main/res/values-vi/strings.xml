@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2023 Kevin Buzeau
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="message_scenario_saving_error">Kịch bản của bạn không thể được lưu do một lỗi nội bộ.\nBạn có muốn sửa đổi nó hay hủy tất cả các sửa đổi của bạn?</string>
+    <string name="button_dialog_modify">Sửa đổi</string>
+    <string name="message_tutorial_first_time">Chúc mừng, Smart AutoClicker hiện đã hoạt động trên thiết bị của bạn!\nBạn có muốn làm theo một hướng dẫn giúp bạn hiểu về cách sử dụng cơ bản của ứng dụng không?</string>
+    <string name="message_error_native_lib">Smart AutoClicker được cài đặt không đúng cách và không thể bắt đầu phát hiện.\n\nNếu bạn đã cài đặt từ một cửa hàng ứng dụng hợp lệ, vui lòng liên hệ với chúng tôi trên GitHub, vì điều này sẽ giúp chúng tôi khắc phục vấn đề này.</string>
+
+</resources>

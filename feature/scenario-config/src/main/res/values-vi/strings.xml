@@ -21,33 +21,33 @@
       - Titles for the dialogs displayed as overlay.
       - Allowed characters can be small due to save/delete/close buttons.
       -->
-    <string name="dialog_overlay_title_action_type">Action type</string>
-    <string name="dialog_overlay_title_application_selection">Select an application</string>
-    <string name="dialog_overlay_title_click">Click</string>
-    <string name="dialog_overlay_title_condition_config">Condition</string>
-    <string name="dialog_overlay_title_condition_selection">Select a condition</string>
-    <string name="dialog_overlay_title_end_condition_config">End Condition</string>
-    <string name="dialog_overlay_title_event_config">Event</string>
-    <string name="dialog_overlay_title_event_selection">Select an event</string>
+    <string name="dialog_overlay_title_action_type">Loại hành động</string>
+    <string name="dialog_overlay_title_application_selection">Chọn một ứng dụng</string>
+    <string name="dialog_overlay_title_click">Nhấp</string>
+    <string name="dialog_overlay_title_condition_config">Điều kiện</string>
+    <string name="dialog_overlay_title_condition_selection">Chọn một điều kiện</string>
+    <string name="dialog_overlay_title_end_condition_config">Điều kiện kết thúc</string>
+    <string name="dialog_overlay_title_event_config">Sự kiện</string>
+    <string name="dialog_overlay_title_event_selection">Chọn một sự kiện</string>
     <string name="dialog_overlay_title_intent">Intent</string>
-    <string name="dialog_overlay_title_pause">Wait</string>
-    <string name="dialog_overlay_title_scenario_config">Scenario</string>
-    <string name="dialog_overlay_title_swipe">Swipe</string>
-    <string name="dialog_overlay_title_toggle_event">Event state</string>
+    <string name="dialog_overlay_title_pause">Chờ</string>
+    <string name="dialog_overlay_title_scenario_config">Kịch bản</string>
+    <string name="dialog_overlay_title_swipe">Vuốt</string>
+    <string name="dialog_overlay_title_toggle_event">Trạng thái sự kiện</string>
 
     <!--
       - Text for menu items.
       - Should be short and concise.
       -->
-    <string name="menu_item_title_advanced">Advanced</string>
-    <string name="menu_item_title_cancel">Cancel</string>
-    <string name="menu_item_title_search">Search</string>
-    <string name="menu_item_title_simple">Simple</string>
-    <string name="menu_item_title_events">Events</string>
-    <string name="menu_item_title_config">Config</string>
-    <string name="menu_item_title_more">More</string>
-    <string name="menu_item_title_conditions">Conditions</string>
-    <string name="menu_item_title_actions">Actions</string>
+    <string name="menu_item_title_advanced">Nâng cao</string>
+    <string name="menu_item_title_cancel">Hủy bỏ</string>
+    <string name="menu_item_title_search">Tìm kiếm</string>
+    <string name="menu_item_title_simple">Đơn giản</string>
+    <string name="menu_item_title_events">Sự kiện</string>
+    <string name="menu_item_title_config">Cấu hình</string>
+    <string name="menu_item_title_more">Thêm</string>
+    <string name="menu_item_title_conditions">Điều kiện</string>
+    <string name="menu_item_title_actions">Hành động</string>
 
     <!--
       - Text for items in a list or vertical layout.
@@ -55,123 +55,123 @@
       -  * Desc can have more space to describe the title
       -  * Error have the same space as desc
       -->
-    <string name="item_desc_click">Click somewhere on the screen</string>
-    <string name="item_desc_click_details">During %1$s at [%2$d, %3$d]</string>
-    <string name="item_desc_click_position_on_condition">On condition</string>
+    <string name="item_desc_click">Nhấp vào một nơi nào đó trên màn hình</string>
+    <string name="item_desc_click_details">Trong thời gian %1$s tại [%2$d, %3$d]</string>
+    <string name="item_desc_click_position_on_condition">Trên điều kiện</string>
     <string name="item_desc_click_on_condition_and_operator">%1$s</string>
-    <string name="item_desc_click_on_condition_and_operator_not_found">No condition selected</string>
-    <string name="item_desc_click_on_condition_or_operator">Event is set to "One Condition", you can\'t select a specific one</string>
-    <string name="item_desc_click_on_position">Click on %1$d, %2$d</string>
-    <string name="item_desc_detection_type_exact">At [%1$d, %2$d] [%3$d, %4$d]</string>
-    <string name="item_desc_detection_type_in_area">In [%1$d, %2$d] [%3$d, %4$d]</string>
-    <string name="item_desc_intent">Interact with another application</string>
-    <string name="item_desc_intent_action">Send %1$s</string>
-    <string name="item_desc_intent_action_component">Send %1$s to %2$s</string>
-    <string name="item_desc_pause">Pause the detection execution</string>
-    <string name="item_desc_pause_details">During %1$s</string>
-    <string name="item_desc_position_select">Select the position</string>
-    <string name="item_desc_swipe">Swipe from a position on the screen to another</string>
-    <string name="item_desc_swipe_details">During %1$s from [%2$d, %3$d] to [%4$d, %5$d]</string>
-    <string name="item_desc_swipe_positions">Swipe from %1$d, %2$d to %3$d, %4$d</string>
-    <string name="item_desc_toggle_event">Change the enabled state of an event</string>
-    <string name="item_desc_toggle_event_details">Change event state with type %1$s</string>
-    <string name="item_error_action_invalid_toggle_event_target">Target event not found</string>
-    <string name="item_title_click">Click</string>
-    <string name="item_title_click_on_condition_and_operator">Click on a condition</string>
-    <string name="item_title_click_on_condition_or_operator">Click on the first detected condition</string>
-    <string name="item_title_debug_generate_report">Generate a report</string>
-    <string name="item_title_debug_report_available">Debug report is available</string>
-    <string name="item_title_debug_report_not_available">No debug report available</string>
-    <string name="item_title_debug_show_view">Show debug view</string>
-    <string name="item_title_detection_type_exact">Detection at the captured position</string>
-    <string name="item_title_detection_type_in_area">Detection on a part of the screen</string>
-    <string name="item_title_detection_type_screen">Detection on the whole screen</string>
+    <string name="item_desc_click_on_condition_and_operator_not_found">Không có điều kiện nào được chọn</string>
+    <string name="item_desc_click_on_condition_or_operator">Sự kiện được đặt thành "Một điều kiện", bạn không thể chọn một điều kiện cụ thể</string>
+    <string name="item_desc_click_on_position">Nhấp vào %1$d, %2$d</string>
+    <string name="item_desc_detection_type_exact">Tại [%1$d, %2$d] [%3$d, %4$d]</string>
+    <string name="item_desc_detection_type_in_area">Trong [%1$d, %2$d] [%3$d, %4$d]</string>
+    <string name="item_desc_intent">Tương tác với một ứng dụng khác</string>
+    <string name="item_desc_intent_action">Gửi %1$s</string>
+    <string name="item_desc_intent_action_component">Gửi %1$s đến %2$s</string>
+    <string name="item_desc_pause">Tạm dừng thực thi phát hiện</string>
+    <string name="item_desc_pause_details">Trong thời gian %1$s</string>
+    <string name="item_desc_position_select">Chọn vị trí</string>
+    <string name="item_desc_swipe">Vuốt từ một vị trí trên màn hình đến vị trí khác</string>
+    <string name="item_desc_swipe_details">Trong thời gian %1$s từ [%2$d, %3$d] đến [%4$d, %5$d]</string>
+    <string name="item_desc_swipe_positions">Vuốt từ %1$d, %2$d đến %3$d, %4$d</string>
+    <string name="item_desc_toggle_event">Thay đổi trạng thái đã kích hoạt của một sự kiện</string>
+    <string name="item_desc_toggle_event_details">Thay đổi trạng thái sự kiện với loại %1$s</string>
+    <string name="item_error_action_invalid_toggle_event_target">Không tìm thấy mục tiêu sự kiện</string>
+    <string name="item_title_click">Nhấp</string>
+    <string name="item_title_click_on_condition_and_operator">Nhấp vào một điều kiện</string>
+    <string name="item_title_click_on_condition_or_operator">Nhấp vào điều kiện được phát hiện đầu tiên</string>
+    <string name="item_title_debug_generate_report">Tạo báo cáo</string>
+    <string name="item_title_debug_report_available">Báo cáo gỡ lỗi có sẵn</string>
+    <string name="item_title_debug_report_not_available">Không có báo cáo gỡ lỗi nào có sẵn</string>
+    <string name="item_title_debug_show_view">Hiển thị chế độ gỡ lỗi</string>
+    <string name="item_title_detection_type_exact">Phát hiện tại vị trí đã chụp</string>
+    <string name="item_title_detection_type_in_area">Phát hiện trên một phần của màn hình</string>
+    <string name="item_title_detection_type_screen">Phát hiện trên toàn bộ màn hình</string>
     <string name="item_title_intent">Intent</string>
-    <string name="item_title_pause">Wait</string>
-    <string name="item_title_swipe">Swipe</string>
-    <string name="item_title_toggle_event">Change event state</string>
+    <string name="item_title_pause">Chờ</string>
+    <string name="item_title_swipe">Vuốt</string>
+    <string name="item_title_toggle_event">Thay đổi trạng thái sự kiện</string>
 
     <!--
       - Empty list messages.
       - Views handles any length here, but try to be concise.
       -->
-    <string name="message_empty_actions">No actions !</string>
-    <string name="message_empty_conditions">No conditions !</string>
-    <string name="message_empty_end_condition_config_event_none_in_scenario">No Event created in the scenario</string>
-    <string name="message_empty_end_condition_config_event_no_selection">No Event selected</string>
-    <string name="message_empty_event_list">No events !</string>
+    <string name="message_empty_actions">Không có hành động nào!</string>
+    <string name="message_empty_conditions">Không có điều kiện nào!</string>
+    <string name="message_empty_end_condition_config_event_none_in_scenario">Không có Sự kiện nào được tạo trong kịch bản</string>
+    <string name="message_empty_end_condition_config_event_no_selection">Không có Sự kiện nào được chọn</string>
+    <string name="message_empty_event_list">Không có sự kiện nào!</string>
 
     <!--
       - Secondary empty list messages.
       - Views handles any length here, you can use more verbosity than the regular empty text.
       -->
-    <string name="message_empty_secondary_end_condition_no_events">You need at least one event to create an end condition for your scenario</string>
-    <string name="message_empty_secondary_event_list">An event contains a set of actions executed when a specific condition is detected on the screen.\nYou need at least one event in your scenario to execute it.</string>
-    <string name="message_empty_secondary_condition_list">A condition is a part of a screenshot that will be searched on each frames displayed by your phone screen.\nYou need at least one condition in your event.</string>
-    <string name="message_empty_secondary_action_list">An action is an interaction (click, swipe…) with your phone triggered when the created conditions are fulfilled.\nYou need at least one action in your event.</string>
+    <string name="message_empty_secondary_end_condition_no_events">Bạn cần ít nhất một sự kiện để tạo điều kiện kết thúc cho kịch bản của bạn</string>
+    <string name="message_empty_secondary_event_list">Một sự kiện chứa một bộ hành động được thực hiện khi một điều kiện cụ thể được phát hiện trên màn hình.\nBạn cần ít nhất một sự kiện trong kịch bản của bạn để thực thi nó.</string>
+    <string name="message_empty_secondary_condition_list">Một điều kiện là một phần của một bức ảnh chụp màn hình sẽ được tìm kiếm trên mỗi khung hình được hiển thị trên màn hình điện thoại của bạn.\nBạn cần ít nhất một điều kiện trong sự kiện của bạn.</string>
+    <string name="message_empty_secondary_action_list">Một hành động là một tương tác (nhấp, vuốt…) với điện thoại của bạn được kích hoạt khi các điều kiện đã được tạo được thực hiện.\nBạn cần ít nhất một hành động trong sự kiện của bạn.</string>
 
     <!--
       - Messages.
       - Views handles any length here, so no limitations.
       -->
     <string name="message_condition_threshold">%1$d%%</string>
-    <string name="message_event_copy_with_toggle_action_from_another_scenario">This event have one or more toggle event actions referencing an event from another scenario.\nYou will have to update their target events before saving your scenario.</string>
-    <string name="message_event_delete_associated_end_condition">This event have one or more end conditions referencing it. Deleting this event will delete the associated end conditions as well.\nAre you sure ?</string>
-    <string name="message_event_delete_associated_action">This event have one or more actions referencing it. Deleting this event will delete the associated actions as well.\nAre you sure ?</string>
-    <string name="message_condition_delete_associated_action">This condition have one or more actions referencing it. Deleting this condition will delete the associated actions as well.\nAre you sure ?</string>
-    <string name="message_tutorial_start">Learn how to use Smart AutoClicker</string>
+    <string name="message_event_copy_with_toggle_action_from_another_scenario">Sự kiện này có một hoặc nhiều hành động chuyển đổi tham chiếu đến một sự kiện từ một kịch bản khác.\nBạn sẽ phải cập nhật các sự kiện mục tiêu của chúng trước khi lưu kịch bản của bạn.</string>
+    <string name="message_event_delete_associated_end_condition">Sự kiện này có một hoặc nhiều điều kiện kết thúc tham chiếu đến nó. Xóa sự kiện này cũng sẽ xóa các điều kiện kết thúc liên quan.\nBạn có chắc chắn không?</string>
+    <string name="message_event_delete_associated_action">Sự kiện này có một hoặc nhiều hành động tham chiếu đến nó. Xóa sự kiện này cũng sẽ xóa các hành động liên quan.\nBạn có chắc chắn không?</string>
+    <string name="message_condition_delete_associated_action">Điều kiện này có một hoặc nhiều hành động tham chiếu đến nó. Xóa điều kiện này cũng sẽ xóa các hành động liên quan.\nBạn có chắc chắn không?</string>
+    <string name="message_tutorial_start">Học cách sử dụng Smart AutoClicker</string>
 
     <!--
       - Section titles.
       - Should be short and concise.
       -->
-    <string name="section_title_condition_detection_details">Detection details</string>
-    <string name="section_title_condition_threshold">Tolerated difference</string>
-    <string name="section_title_detection_quality_title">Detection quality</string>
-    <string name="section_title_end_condition">End conditions</string>
-    <string name="section_title_intent_extras_value">Value</string>
-    <string name="section_title_start_application">Start application</string>
-    <string name="section_title_tutorial">Tutorial</string>
-    <string name="section_title_debug">Debug</string>
+    <string name="section_title_condition_detection_details">Chi tiết phát hiện điều kiện</string>
+    <string name="section_title_condition_threshold">Sự khác biệt chấp nhận được</string>
+    <string name="section_title_detection_quality_title">Chất lượng phát hiện</string>
+    <string name="section_title_end_condition">Điều kiện kết thúc</string>
+    <string name="section_title_intent_extras_value">Giá trị</string>
+    <string name="section_title_start_application">Bắt đầu ứng dụng</string>
+    <string name="section_title_tutorial">Hướng dẫn</string>
+    <string name="section_title_debug">Gỡ lỗi</string>
 
     <!--
       - List header.
       - Displayed on one line.
       -->
-    <string name="list_header_copy_event_this">Events from this scenario</string>
-    <string name="list_header_copy_event_all">Events from all scenarios</string>
-    <string name="list_header_copy_conditions_this">Conditions from this event</string>
-    <string name="list_header_copy_conditions_all">Conditions from all events</string>
-    <string name="list_header_copy_action_this">Actions from this event</string>
-    <string name="list_header_copy_action_all">Actions from all events</string>
+    <string name="list_header_copy_event_this">Các Sự kiện từ kịch bản này</string>
+    <string name="list_header_copy_event_all">Các Sự kiện từ tất cả các kịch bản</string>
+    <string name="list_header_copy_conditions_this">Các Điều kiện từ sự kiện này</string>
+    <string name="list_header_copy_conditions_all">Các Điều kiện từ tất cả các sự kiện</string>
+    <string name="list_header_copy_action_this">Các Hành động từ sự kiện này</string>
+    <string name="list_header_copy_action_all">Các Hành động từ tất cả các sự kiện</string>
 
     <!--
       - SearchView hint
       - Displayed on one line.
       -->
-    <string name="search_view_hint_event_copy">Search by event name</string>
-    <string name="search_view_hint_action_copy">Search by action name</string>
-    <string name="search_view_hint_condition_copy">Search by condition name</string>
+    <string name="search_view_hint_event_copy">Tìm kiếm theo tên sự kiện</string>
+    <string name="search_view_hint_action_copy">Tìm kiếm theo tên hành động</string>
+    <string name="search_view_hint_condition_copy">Tìm kiếm theo tên điều kiện</string>
 
     <!--
       - TextButton content.
       - Should be short and concise.
       -->
-    <string name="button_text_create_scenario">Create a scenario</string>
-    <string name="button_text_intent_extra_type_select">Select a type</string>
-    <string name="button_text_quality_speed">Speed</string>
-    <string name="button_text_quality_precision">Precision</string>
-    <string name="button_text_swipe_positions_select">Select the positions</string>
+    <string name="button_text_create_scenario">Tạo một kịch bản</string>
+    <string name="button_text_intent_extra_type_select">Chọn một loại</string>
+    <string name="button_text_quality_speed">Tốc độ</string>
+    <string name="button_text_quality_precision">Độ chính xác</string>
+    <string name="button_text_swipe_positions_select">Chọn các vị trí</string>
 
     <!--
       - Text input fields labels and error messages.
       - Should be short and concise.
       -->
-    <string name="input_field_label_name">Name</string>
-    <string name="input_field_label_execution_count">Executions</string>
-    <string name="input_field_label_intent_extra_key">Key</string>
-    <string name="input_field_label_event_state">State</string>
-    <string name="input_field_toggle_event_type">New event state</string>
+    <string name="input_field_label_name">Tên</string>
+    <string name="input_field_label_execution_count">Lần thực thi</string>
+    <string name="input_field_label_intent_extra_key">Khóa</string>
+    <string name="input_field_label_event_state">Trạng thái</string>
+    <string name="input_field_toggle_event_type">Trạng thái sự kiện mới</string>
 
     <!--
       - Dropdown input fields texts.
@@ -183,70 +183,70 @@
       -->
 
     <!-- Dropdown field for selecting the event state -->
-    <string name="dropdown_item_title_event_state_enabled">Enabled</string>
-    <string name="dropdown_item_title_event_state_disabled">Disabled</string>
-    <string name="dropdown_helper_text_event_state_enabled">This event will be interpreted normally when playing the scenario</string>
-    <string name="dropdown_helper_text_event_state_disabled">This event needs to be enabled by an action to be interpreted when playing the scenario</string>
+    <string name="dropdown_item_title_event_state_enabled">Bật</string>
+    <string name="dropdown_item_title_event_state_disabled">Tắt</string>
+    <string name="dropdown_helper_text_event_state_enabled">Sự kiện này sẽ được hiểu theo cách thông thường khi chơi kịch bản</string>
+    <string name="dropdown_helper_text_event_state_disabled">Sự kiện này cần được kích hoạt bằng một hành động để được hiểu khi chơi kịch bản</string>
 
     <!-- Dropdown field for selecting the toggle event type -->
-    <string name="dropdown_item_title_toggle_event_state_enable">Enable</string>
-    <string name="dropdown_item_title_toggle_event_state_disable">Disable</string>
-    <string name="dropdown_item_title_toggle_event_state_toggle">Toggle</string>
-    <string name="dropdown_helper_text_toggle_event_state_enable">The event will start being interpreted when playing the scenario</string>
-    <string name="dropdown_helper_text_toggle_event_state_disable">The event will stop being interpreted when playing the scenario</string>
-    <string name="dropdown_helper_text_toggle_event_state_toggle">When playing the scenario, start interpreting the event if it is disabled, stop if it is enabled</string>
+    <string name="dropdown_item_title_toggle_event_state_enable">Bật</string>
+    <string name="dropdown_item_title_toggle_event_state_disable">Tắt</string>
+    <string name="dropdown_item_title_toggle_event_state_toggle">Chuyển đổi</string>
+    <string name="dropdown_helper_text_toggle_event_state_enable">Sự kiện sẽ bắt đầu được hiểu khi chơi kịch bản</string>
+    <string name="dropdown_helper_text_toggle_event_state_disable">Sự kiện sẽ ngừng được hiểu khi chơi kịch bản</string>
+    <string name="dropdown_helper_text_toggle_event_state_toggle">Khi chơi kịch bản, bắt đầu hiểu sự kiện nếu nó bị tắt, dừng nếu nó được bật</string>
 
     <!-- Dropdown field for selecting the conditions operator -->
-    <string name="dropdown_label_condition_operator">Conditions</string>
-    <string name="dropdown_item_title_condition_or">One</string>
-    <string name="dropdown_item_title_condition_and">All</string>
-    <string name="dropdown_helper_text_condition_or">Only one condition must be fulfilled to trigger the actions</string>
-    <string name="dropdown_helper_text_condition_and">All conditions must be fulfilled to trigger the actions</string>
+    <string name="dropdown_label_condition_operator">Điều kiện</string>
+    <string name="dropdown_item_title_condition_or">Một</string>
+    <string name="dropdown_item_title_condition_and">Tất cả</string>
+    <string name="dropdown_helper_text_condition_or">Chỉ cần một điều kiện được thực hiện để kích hoạt các hành động</string>
+    <string name="dropdown_helper_text_condition_and">Tất cả các điều kiện phải được thực hiện để kích hoạt các hành động</string>
 
     <!-- Dropdown field for selecting the end conditions operator. Item titles are the same as conditions operator. -->
-    <string name="dropdown_helper_text_end_condition_or">Only one condition must be fulfilled to stop the scenario</string>
-    <string name="dropdown_helper_text_end_condition_and">All conditions must be fulfilled to stop the scenario</string>
+    <string name="dropdown_helper_text_end_condition_or">Chỉ cần một điều kiện được thực hiện để dừng kịch bản</string>
+    <string name="dropdown_helper_text_end_condition_and">Tất cả các điều kiện phải được thực hiện để dừng kịch bản</string>
 
     <!-- Dropdown field for selecting the condition detection type. -->
-    <string name="dropdown_label_condition_detection_type">Detection type</string>
-    <string name="dropdown_item_title_detection_type_exact">Exact</string>
-    <string name="dropdown_item_title_detection_type_in_area">Area</string>
-    <string name="dropdown_item_title_detection_type_screen">Screen</string>
+    <string name="dropdown_label_condition_detection_type">Loại phát hiện</string>
+    <string name="dropdown_item_title_detection_type_exact">Chính xác</string>
+    <string name="dropdown_item_title_detection_type_in_area">Khu vực</string>
+    <string name="dropdown_item_title_detection_type_screen">Màn hình</string>
 
     <!-- Dropdown field for selecting the condition visibility. -->
-    <string name="dropdown_label_condition_visibility">Visibility</string>
-    <string name="dropdown_item_title_condition_visibility_present">Present</string>
-    <string name="dropdown_item_title_condition_visibility_absent">Absent</string>
-    <string name="dropdown_helper_text_condition_visibility_present">The condition must be detected</string>
-    <string name="dropdown_helper_text_condition_visibility_absent">The condition must not be detected</string>
+    <string name="dropdown_label_condition_visibility">Khả năng nhìn thấy</string>
+    <string name="dropdown_item_title_condition_visibility_present">Hiện diện</string>
+    <string name="dropdown_item_title_condition_visibility_absent">Vắng mặt</string>
+    <string name="dropdown_helper_text_condition_visibility_present">Điều kiện phải được phát hiện</string>
+    <string name="dropdown_helper_text_condition_visibility_absent">Điều kiện không được phát hiện</string>
 
     <!-- Dropdown field for selecting the click position type -->
-    <string name="dropdown_label_click_position_type">Click on</string>
-    <string name="dropdown_item_title_click_position_type_on_condition">Condition</string>
-    <string name="dropdown_item_title_click_position_type_on_position">Selected position</string>
-    <string name="dropdown_helper_text_click_position_type_on_condition">Click on the detected condition</string>
-    <string name="dropdown_helper_text_click_position_type_on_position">Click on the selected position</string>
+    <string name="dropdown_label_click_position_type">Nhấp vào</string>
+    <string name="dropdown_item_title_click_position_type_on_condition">Điều kiện</string>
+    <string name="dropdown_item_title_click_position_type_on_position">Vị trí đã chọn</string>
+    <string name="dropdown_helper_text_click_position_type_on_condition">Nhấp vào điều kiện đã phát hiện</string>
+    <string name="dropdown_helper_text_click_position_type_on_position">Nhấp vào vị trí đã chọn</string>
 
     <!-- Dropdown field for selecting the intent sending type. -->
-    <string name="dropdown_label_intent_sending_type">Type</string>
+    <string name="dropdown_label_intent_sending_type">Loại</string>
 
     <!--
       - Dropdown field for selecting the intent extra type.
       - All items for this field are not translatable.
       -->
-    <string name="dropdown_label_intent_extra_value_type">Value type</string>
+    <string name="dropdown_label_intent_extra_value_type">Loại giá trị</string>
 
 
     <!--
       - Content description texts.
       - They are use as accessibility texts for visually impaired people. They will not be displayed but spoken.
       -->
-    <string name="content_desc_drag_and_drop">Drag and drop to reorder the elements</string>
-    <string name="content_desc_event_state">The state of the event</string>
-    <string name="content_desc_conditions_count">The number of conditions in this event</string>
-    <string name="content_desc_actions_count">The number of actions in this event</string>
-    <string name="content_desc_image_condition">The image to be detected</string>
-    <string name="content_desc_open_event_list">Open the event list</string>
-    <string name="content_desc_action_icon">The icon showing the type of action</string>
-    <string name="content_desc_application_icon">The icon of the application to start.</string>
+    <string name="content_desc_drag_and_drop">Kéo và thả để sắp xếp lại các phần tử</string>
+    <string name="content_desc_event_state">Trạng thái của sự kiện</string>
+    <string name="content_desc_conditions_count">Số lượng điều kiện trong sự kiện này</string>
+    <string name="content_desc_actions_count">Số lượng hành động trong sự kiện này</string>
+    <string name="content_desc_image_condition">Hình ảnh cần được phát hiện</string>
+    <string name="content_desc_open_event_list">Mở danh sách sự kiện</string>
+    <string name="content_desc_action_icon">Biểu tượng chỉ loại hành động</string>
+    <string name="content_desc_application_icon">Biểu tượng của ứng dụng cần khởi chạy.</string>
 </resources>

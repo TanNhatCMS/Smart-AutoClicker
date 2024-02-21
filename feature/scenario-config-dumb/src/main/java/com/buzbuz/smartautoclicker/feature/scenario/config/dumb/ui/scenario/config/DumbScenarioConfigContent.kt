@@ -30,19 +30,21 @@ import com.buzbuz.smartautoclicker.core.dumb.domain.model.REPEAT_COUNT_MAX_VALUE
 import com.buzbuz.smartautoclicker.core.dumb.domain.model.REPEAT_COUNT_MIN_VALUE
 import com.buzbuz.smartautoclicker.core.ui.bindings.dropdown.setItems
 import com.buzbuz.smartautoclicker.core.ui.bindings.dropdown.setSelectedItem
-import com.buzbuz.smartautoclicker.core.ui.bindings.setChecked
 import com.buzbuz.smartautoclicker.core.ui.bindings.setError
 import com.buzbuz.smartautoclicker.core.ui.bindings.setLabel
-import com.buzbuz.smartautoclicker.core.ui.bindings.setNumericValue
-import com.buzbuz.smartautoclicker.core.ui.bindings.setOnCheckboxClickedListener
 import com.buzbuz.smartautoclicker.core.ui.bindings.setOnTextChangedListener
 import com.buzbuz.smartautoclicker.core.ui.bindings.setText
-import com.buzbuz.smartautoclicker.core.ui.bindings.setup
 import com.buzbuz.smartautoclicker.core.ui.overlays.dialog.NavBarDialogContent
 import com.buzbuz.smartautoclicker.core.ui.overlays.dialog.viewModels
 import com.buzbuz.smartautoclicker.core.ui.utils.MinMaxInputFilter
 import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.R
 import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.databinding.ContentDumbScenarioConfigBinding
+import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.ui.bindings.setError
+import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.ui.bindings.setInfiniteState
+import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.ui.bindings.setLabel
+import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.ui.bindings.setOnInfiniteButtonClickedListener
+import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.ui.bindings.setOnTextChangedListener
+import com.buzbuz.smartautoclicker.feature.scenario.config.dumb.ui.bindings.setRepeatCount
 
 import kotlinx.coroutines.launch
 
@@ -68,11 +70,11 @@ class DumbScenarioConfigContent(appContext: Context) : NavBarDialogContent(appCo
                     REPEAT_COUNT_MIN_VALUE,
                     REPEAT_COUNT_MAX_VALUE,
                 ))
-                setup(R.string.input_field_label_repeat_count, R.drawable.ic_infinite, disableInputWithCheckbox = true)
+                setLabel(R.string.input_field_label_repeat_count)
                 setOnTextChangedListener {
                     dialogViewModel.setRepeatCount(if (it.isNotEmpty()) it.toString().toInt() else 0)
                 }
-                setOnCheckboxClickedListener(dialogViewModel::toggleInfiniteRepeat)
+                setOnInfiniteButtonClickedListener(dialogViewModel::toggleInfiniteRepeat)
             }
 
             scenarioRandomization.setItems(
@@ -83,11 +85,11 @@ class DumbScenarioConfigContent(appContext: Context) : NavBarDialogContent(appCo
 
             maxDurationInputField.apply {
                 textField.filters = arrayOf(MinMaxInputFilter(1, DUMB_SCENARIO_MAX_DURATION_MINUTES))
-                setup(R.string.input_field_label_maximum_duration, R.drawable.ic_infinite, disableInputWithCheckbox = true)
+                setLabel(R.string.input_field_label_maximum_duration)
                 setOnTextChangedListener {
                     dialogViewModel.setMaxDurationMinutes(if (it.isNotEmpty()) it.toString().toInt() else 0)
                 }
-                setOnCheckboxClickedListener(dialogViewModel::toggleInfiniteMaxDuration)
+                setOnInfiniteButtonClickedListener(dialogViewModel::toggleInfiniteMaxDuration)
             }
         }
 
@@ -99,12 +101,12 @@ class DumbScenarioConfigContent(appContext: Context) : NavBarDialogContent(appCo
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 launch { dialogViewModel.scenarioName.collect(viewBinding.scenarioNameInputLayout::setText) }
                 launch { dialogViewModel.scenarioNameError.collect(viewBinding.scenarioNameInputLayout::setError)}
-                launch { dialogViewModel.repeatCount.collect(viewBinding.repeatCountInputField::setNumericValue) }
+                launch { dialogViewModel.repeatCount.collect(viewBinding.repeatCountInputField::setRepeatCount) }
                 launch { dialogViewModel.repeatCountError.collect(viewBinding.repeatCountInputField::setError) }
-                launch { dialogViewModel.repeatInfiniteState.collect(viewBinding.repeatCountInputField::setChecked) }
-                launch { dialogViewModel.maxDurationMin.collect(viewBinding.maxDurationInputField::setNumericValue) }
+                launch { dialogViewModel.repeatInfiniteState.collect(viewBinding.repeatCountInputField::setInfiniteState) }
+                launch { dialogViewModel.maxDurationMin.collect(viewBinding.maxDurationInputField::setRepeatCount) }
                 launch { dialogViewModel.maxDurationMinError.collect(viewBinding.maxDurationInputField::setError) }
-                launch { dialogViewModel.maxDurationMinInfiniteState.collect(viewBinding.maxDurationInputField::setChecked) }
+                launch { dialogViewModel.maxDurationMinInfiniteState.collect(viewBinding.maxDurationInputField::setInfiniteState) }
                 launch { dialogViewModel.randomization.collect(viewBinding.scenarioRandomization::setSelectedItem) }
             }
         }

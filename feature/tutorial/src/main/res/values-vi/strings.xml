@@ -40,239 +40,223 @@
     -->
 
     <!-- One still target tutorial -->
-    <string name="item_title_tutorial_1">Press a still target</string>
-    <string name="item_desc_tutorial_1">Learn how to create your first event in order to click on a still target</string>
-    <string name="message_tutorial_1_game_instructions">Click on the blue button as fast as possible</string>
+    <string name="item_title_tutorial_1">Nhấn vào một mục tiêu đứng yên</string>
+    <string name="item_desc_tutorial_1">Học cách tạo sự kiện đầu tiên của bạn để nhấp vào một mục tiêu đứng yên</string>
+    <string name="message_tutorial_1_game_instructions">Nhấp vào nút màu xanh càng nhanh càng tốt</string>
 
-    <string name="message_tutorial_1_step_1">Welcome to your first tutorial!\n\nHere, you will try to beat the high score
-        of a game with the help of Smart AutoClicker.\n\nFirst, start the game and try to win by yourself.</string>
+    <string name="message_tutorial_1_step_1">Chào mừng bạn đến với bài hướng dẫn đầu tiên của bạn!\n\nỞ đây, bạn sẽ cố gắng đánh bại điểm cao
+    của một trò chơi với sự trợ giúp của Smart AutoClicker.\n\nĐầu tiên, bắt đầu trò chơi và cố gắng chiến thắng một mình.</string>
 
-    <string name="message_tutorial_1_step_3">Difficult, isn\'t it?\nLet\'s use Smart AutoClicker to beat it !\n\n
-        Click on the scenario configuration icon to start editing your new scenario.</string>
+    <string name="message_tutorial_1_step_3">Khó khăn, phải không?\nHãy sử dụng Smart AutoClicker để đánh bại nó !\n\n
+    Nhấn vào biểu tượng cấu hình kịch bản để bắt đầu chỉnh sửa kịch bản mới của bạn.</string>
 
-    <string name="message_tutorial_1_step_4">A Scenario is the root structure of Smart AutoClicker automation.\n\n
-        It contains the general detection settings and a list of Events describing what will be executed when running
-        your Scenario. \n\nClick on the create event button to create your first event.</string>
+    <string name="message_tutorial_1_step_4">Một Kịch bản là cấu trúc gốc của tự động hóa Smart AutoClicker.\n\n
+    Nó chứa các thiết lập phát hiện chung và một danh sách các Sự kiện mô tả những gì sẽ được thực hiện khi chạy
+    Kịch bản của bạn. \n\nNhấn vào nút tạo sự kiện để tạo sự kiện đầu tiên của bạn.</string>
 
-    <string name="message_tutorial_1_step_5">An Event describe what Actions (click, swipe…) to execute when certain
-        Conditions are met.\n\nYou must create at least one Condition and one Action in order to create a valid Event
-        and use it in your scenario\n\nClick on the Conditions tab to display the Conditions list.</string>
+    <string name="message_tutorial_1_step_5">Một Sự kiện mô tả những Hành động (nhấp, vuốt…) sẽ được thực hiện khi những điều kiện nhất định
+    được đáp ứng.\n\nBạn phải tạo ít nhất một Điều kiện và một Hành động để tạo ra một Sự kiện hợp lệ
+    và sử dụng nó trong kịch bản của bạn\n\nNhấn vào tab Điều kiện để hiển thị danh sách Điều kiện.</string>
 
-    <string name="message_tutorial_1_step_6">A Condition is a part of a screenshot that will be compared to each screen
-        frame of your device.\n\nTo beat the game, we want to click on the blue character when it\'s visible, so we need
-        a Condition that is fulfilled when the character is shown on your device screen.\n\nClick on the create
-        Condition button to create your first Condition.</string>
+    <string name="message_tutorial_1_step_6">Một Điều kiện là một phần của một bức ảnh chụp màn hình sẽ được so sánh với mỗi khung hình màn hình của thiết bị của bạn.\n\n
+    Để đánh bại trò chơi, chúng ta muốn nhấp vào nhân vật màu xanh khi nó hiển thị, vì vậy chúng ta cần
+    một Điều kiện được thực hiện khi nhân vật được hiển thị trên màn hình thiết bị của bạn.\n\nNhấn vào nút tạo
+    Điều kiện để tạo Điều kiện đầu tiên của bạn.</string>
 
-    <string name="message_tutorial_1_step_7">The first step of a Condition creation is to take a screenshot for it.\n\n
-        As we want to click when the blue character is visible, the screenshot must contains it. Start the game again in
-        order to display it, and then take the screenshot.</string>
-    <string name="message_tutorial_1_step_secondary_7">Use the capture button in the floating menu to take the screenshot.</string>
+    <string name="message_tutorial_1_step_7">Bước đầu tiên của việc tạo ra một Điều kiện là chụp một bức ảnh chụp màn hình cho nó.\n\n
+    Vì chúng tôi muốn nhấp khi nhân vật màu xanh hiển thị, bức ảnh chụp màn hình phải chứa nó. Bắt đầu lại trò chơi
+    để hiển thị nó, và sau đó chụp màn hình.</string>
+    <string name="message_tutorial_1_step_secondary_7">Sử dụng nút chụp trong menu nổi để chụp màn hình.</string>
 
-    <string name="message_tutorial_1_step_8">Once the screenshot is taken, you can crop it in order to only get the part
-        that is interesting for the detection.</string>
-    <string name="message_tutorial_1_step_secondary_8">If your screenshot does not contains the blue character, you can
-        press this button to take a new one.</string>
+    <string name="message_tutorial_1_step_8">Khi đã chụp màn hình, bạn có thể cắt nó để chỉ lấy phần
+    mà thú vị cho việc nhận dạng.</string>
+    <string name="message_tutorial_1_step_secondary_8">Nếu bức ảnh chụp màn hình của bạn không chứa nhân vật màu xanh, bạn có thể
+    nhấn vào nút này để chụp một cái mới.</string>
 
-    <string name="message_tutorial_1_step_9">For this game, the interesting part is the blue character, so crop your
-        screenshot to only get him.\n\nYou can pinch on the screenshot to zoom on it and get a better accuracy for the
-        crop selector.</string>
-    <string name="message_tutorial_1_step_secondary_9">Ensure the character is complete in the selector. Also try to
-        crop it as close as possible to him in order to ease the image detection.</string>
+    <string name="message_tutorial_1_step_9">Đối với trò chơi này, phần thú vị là nhân vật màu xanh, vì vậy hãy cắt bức ảnh của bạn
+    để chỉ lấy anh ta.\n\nBạn có thể chạm vào màn hình để phóng to nó và có được độ chính xác tốt hơn cho bộ chọn cắt.</string>
+    <string name="message_tutorial_1_step_secondary_9">Đảm bảo rằng nhân vật được hoàn toàn trong bộ chọn. Hãy cố gắng
+    cắt gần anh ta nhất có thể để dễ dàng việc nhận dạng hình ảnh.</string>
 
-    <string name="message_tutorial_1_step_10">Your Condition image is now recorded!\n\nThere is now several adjustments
-        that can be made to it, but the default settings suits our basic use case. As our target is not moving, it will
-        only detect at the capture position, which is faster than detecting on the whole screen.\n\nClick on the save
-        button to register it and return to the Event configuration dialog.</string>
+    <string name="message_tutorial_1_step_10">Bức ảnh Điều kiện của bạn đã được ghi lại!\n\nBây giờ có một số điều chỉnh
+    có thể được thực hiện trên nó, nhưng cài đặt mặc định phù hợp với trường hợp sử dụng cơ bản của chúng ta. Vì mục tiêu của chúng ta không di chuyển, nó sẽ
+    chỉ nhận dạng ở vị trí chụp, điều này nhanh hơn so với việc nhận dạng trên toàn bộ màn hình.\n\nNhấn vào nút lưu
+    để đăng ký nó và trở về hộp thoại cấu hình Sự kiện.</string>
 
-    <string name="message_tutorial_1_step_11">With this Condition, the scenario knows when to trigger the Actions.\n\n
-        You now need to define what Actions to trigger, so for this game, a click on the blue character.\n\nClick on the
-        Actions tab to display the Actions list.</string>
+    <string name="message_tutorial_1_step_11">Với Điều kiện này, kịch bản biết khi nào kích hoạt các Hành động.\n\n
+    Bây giờ bạn cần xác định những Hành động gì để kích hoạt, vì vậy đối với trò chơi này, là một cú nhấp vào nhân vật màu xanh.\n\nNhấn vào tab Hành động để hiển thị danh sách Hành động.</string>
 
-    <string name="message_tutorial_1_step_12">An Action is something that is executed once the Conditions of its Event
-        are fulfilled.\n\nIt can be a click, a swipe, a pause, an Intent (an interaction with another application) or a
-        change in the Scenario execution, and multiple Actions can be defined for the same Event.\n\nClick on the create
-        Action button to create your first Action.</string>
+    <string name="message_tutorial_1_step_12">Một Hành động là một cái gì đó được thực hiện khi Điều kiện của Sự kiện đó
+    được thỏa mãn.\n\nNó có thể là một nhấp chuột, một vuốt, một tạm dừng, một Intent (tương tác với một ứng dụng khác) hoặc một
+    thay đổi trong việc thực thi Kịch bản, và nhiều Hành động có thể được xác định cho cùng một Sự kiện.\n\nNhấn vào nút tạo
+    Hành động để tạo Hành động đầu tiên của bạn.</string>
 
-    <string name="message_tutorial_1_step_13">First, we need to pick a type for your Action.\n\nFor this game, we simply
-        need to click on the blue character, so choose Click to create a new Click Action.</string>
+    <string name="message_tutorial_1_step_13">Đầu tiên, chúng ta cần chọn một loại cho Hành động của bạn.\n\nĐối với trò chơi này, chúng ta đơn giản
+    chỉ cần nhấp vào nhân vật màu xanh, vì vậy hãy chọn Nhấp để tạo Hành động Nhấp mới.</string>
 
-    <string name="message_tutorial_1_step_14">A Click Action is defined by a position and a press duration.\n\nAs we
-        want to click as quickly as possible, we can keep the default press duration of 1ms, which is the lowest
-        possible value. So we only need to define a position.\n\nClick on the position picker button to select the Click
-        Action position.</string>
+    <string name="message_tutorial_1_step_14">Một Hành động Nhấp được xác định bởi một vị trí và một thời gian nhấp.\n\nVì chúng tôi
+    muốn nhấp càng nhanh càng tốt, chúng tôi có thể giữ thời gian nhấp mặc định là 1ms, đó là giá trị thấp nhất có thể. Vì vậy chúng tôi chỉ cần xác định một vị trí.\n\nNhấn vào nút chọn vị trí để chọn Vị trí Nhấp
+    Hành động.</string>
 
-    <string name="message_tutorial_1_step_15">You need to select the exact position to be clicked, so you need to start
-        the game again to display the blue character, and then select its position.\n\nOnce the position is correct,
-        click on the validate button to save it.</string>
-    <string name="message_tutorial_1_step_secondary_15">You can\'t interact with the game while the position selector is
-        visible, but you can use this button to show and hide it, allowing you to remove that restriction at will.</string>
+    <string name="message_tutorial_1_step_15">Bạn cần chọn vị trí chính xác để nhấp, vì vậy bạn cần bắt đầu
+    trò chơi lại để hiển thị nhân vật màu xanh, và sau đó chọn vị trí của nó.\n\nKhi vị trí là chính xác,
+    nhấn vào nút xác nhận để lưu lại.</string>
+    <string name="message_tutorial_1_step_secondary_15">Bạn không thể tương tác với trò chơi trong khi bộ chọn vị trí hiển thị, nhưng bạn có thể sử dụng nút này để hiển thị và ẩn nó, cho phép bạn loại bỏ hạn chế đó tùy ý.</string>
 
-    <string name="message_tutorial_1_step_16">The click is now correctly configured!\n\nClick on the save button to
-        register it and return to the Event configuration dialog.</string>
+    <string name="message_tutorial_1_step_16">Nhấp chuột đã được cấu hình đúng!\n\nNhấn vào nút lưu để
+    đăng ký nó và trở về hộp thoại cấu hình Sự kiện.</string>
 
-    <string name="message_tutorial_1_step_17">Your Event now have a Condition and an Action, which means it knows what
-        to execute and when to execute it.\n\nClick on the save button to register it and return to the Scenario dialog.</string>
+    <string name="message_tutorial_1_step_17">Sự kiện của bạn hiện có một Điều kiện và một Hành động, điều này có nghĩa là nó biết
+    điều gì để thực thi và khi nào để thực thi nó.\n\nNhấn vào nút lưu để đăng ký nó và trở về hộp thoại Kịch bản.</string>
 
-    <string name="message_tutorial_1_step_18">The only requirement for a Scenario is to have at least one Event.\n
-        As our Event already cover how to win the game, we don\'t need anything else.\n\nClick on the save button the
-        save the Scenario in database and close the configuration dialogs.</string>
+    <string name="message_tutorial_1_step_18">Yêu cầu duy nhất cho một Kịch bản là phải có ít nhất một Sự kiện.\n
+    Vì Sự kiện của chúng tôi đã đề cập đến cách chiến thắng trò chơi, chúng tôi không cần bất cứ điều gì khác.\n\nNhấn vào nút lưu để
+    lưu Kịch bản vào cơ sở dữ liệu và đóng các hộp thoại cấu hình.</string>
 
-    <string name="message_tutorial_1_step_19">As you can see, the play button is now available, meaning that your
-        Scenario is valid and can be used for detection\n\nClick on it to start the detection.</string>
+    <string name="message_tutorial_1_step_19">Như bạn có thể thấy, nút chơi hiện đã sẵn có, có nghĩa là Kịch bản của bạn hợp lệ và có thể được sử dụng cho việc nhận dạng\n\nNhấn vào nó để bắt đầu nhận dạng.</string>
 
-    <string name="message_tutorial_1_step_20">It\'s playing but nothing happens?\n\nThat\'s normal, it will click only
-        when the blue character is visible, remember? While keeping the scenario running, press the start game button
-        and just watch as Smart AutoClicker will beat it for you!</string>
+    <string name="message_tutorial_1_step_20">Nó đang chạy nhưng không có gì xảy ra?\n\nĐó là bình thường, nó sẽ chỉ nhấp khi nhân vật màu xanh được hiển thị, nhớ không? Trong khi giữ kịch bản đang chạy, nhấn vào nút bắt đầu trò chơi
+    và chỉ cần quan sát khi Smart AutoClicker sẽ đánh bại nó cho bạn!</string>
 
-    <string name="message_tutorial_1_step_21">Congratulations!\n\nYou now know the basics of Smart AutoClicker, but not
-        all use cases will be as simple as this game.\nTake a look at the next tutorial to learn how to track a moving
-        target</string>
+
+    <string name="message_tutorial_1_step_21">Chúc mừng!\n\nBây giờ bạn đã biết những điều cơ bản về Smart AutoClicker, nhưng không phải
+    tất cả các trường hợp sử dụng sẽ đơn giản như trò chơi này.\nHãy nhìn vào bài hướng dẫn tiếp theo để biết cách theo dõi một
+    mục tiêu di chuyển</string>
 
 
     <!-- One moving target tutorial -->
-    <string name="item_title_tutorial_2">Press a moving target</string>
-    <string name="item_desc_tutorial_2">Change your event to click on a randomly moving target</string>
-    <string name="message_tutorial_2_game_instructions">Click on the moving blue button as fast as possible</string>
+    <string name="item_title_tutorial_2">Nhấn vào một mục tiêu đang di chuyển</string>
+    <string name="item_desc_tutorial_2">Thay đổi sự kiện của bạn để nhấp vào một mục tiêu di chuyển ngẫu nhiên</string>
+    <string name="message_tutorial_2_game_instructions">Nhấp vào nút màu xanh đang di chuyển càng nhanh càng tốt</string>
 
-    <string name="message_tutorial_2_step_1">Let\'s complicate the game a little bit more. Now, the target is randomly
-        moving.\n\nFirst, start the game and check if you can win by yourself.</string>
+    <string name="message_tutorial_2_step_1">Hãy phức tạp hóa trò chơi một chút nữa. Bây giờ, mục tiêu di chuyển ngẫu nhiên.\n\n
+    Đầu tiên, bắt đầu trò chơi và kiểm tra xem bạn có thể chiến thắng một mình không.</string>
 
-    <string name="message_tutorial_2_step_3">Once again, it seems impossible to win manually, so let\'s use Smart
-        AutoClicker.\n\nYour scenario for the previous tutorial have been kept and load for this tutorial, but we will
-        need to change a few parameters in order to win this new game.\n\nClick on the Scenario configuration icon to
-        start updating your new scenario.</string>
+    <string name="message_tutorial_2_step_3">Một lần nữa, dường như không thể chiến thắng bằng cách thủ công, vì vậy hãy sử dụng Smart
+    AutoClicker.\n\nKịch bản của bạn cho bài hướng dẫn trước đó đã được giữ và tải lên cho bài hướng dẫn này, nhưng chúng tôi sẽ
+    cần thay đổi một số tham số để chiến thắng trò chơi mới này.\n\nNhấn vào biểu tượng cấu hình Kịch bản để
+    bắt đầu cập nhật kịch bản mới của bạn.</string>
 
-    <string name="message_tutorial_2_step_4">We still want to click on the blue character, meaning that we still only
-        need one Condition and one Action, so only one Event.\n\nAs the use case is pretty similar to the previous game,
-        we will keep our Event and simply update it.\n\nClick on your previously created event to edit it.</string>
+    <string name="message_tutorial_2_step_4">Chúng ta vẫn muốn nhấp vào nhân vật màu xanh, có nghĩa là chúng ta vẫn chỉ
+    cần một Điều kiện và một Hành động, vì vậy chỉ có một Sự kiện.\n\nVì trường hợp sử dụng khá giống với trò chơi trước,
+    chúng ta sẽ giữ lại Sự kiện của mình và đơn giản là cập nhật nó.\n\nNhấn vào sự kiện đã được tạo trước đó của bạn để chỉnh sửa nó.</string>
 
-    <string name="message_tutorial_2_step_5">In a first time, we will update the Condition that detect the blue
-        character.\n\nClick on the Conditions tab to display the Conditions list.</string>
+    <string name="message_tutorial_2_step_5">Ban đầu, chúng ta sẽ cập nhật Điều kiện để phát hiện nhân vật màu xanh.\n\n
+    Nhấn vào tab Điều kiện để hiển thị danh sách Điều kiện.</string>
 
-    <string name="message_tutorial_2_step_6">As in the previous tutorial, we need to detect the blue character, but now
-        it is moving.\n\nOur previous Condition is already detecting the blue character, but only at one position. So you
-        don\'t need to take a new screenshot, as your previous Condition already has it, we just need to change its
-        parameters.\n\nClick on your Condition to start editing it.</string>
+    <string name="message_tutorial_2_step_6">Như trong bài hướng dẫn trước, chúng ta cần phát hiện nhân vật màu xanh, nhưng bây giờ
+    nó đang di chuyển.\n\nĐiều kiện trước đó của chúng ta đã phát hiện được nhân vật màu xanh, nhưng chỉ ở một vị trí. Vì vậy bạn không cần chụp
+    một bức ảnh mới, vì Điều kiện trước đó của bạn đã có nó, chúng ta chỉ cần thay đổi các thông số của nó.\n\nNhấn vào Điều kiện của bạn để bắt đầu chỉnh sửa nó.</string>
 
-    <string name="message_tutorial_2_step_7">Currently, the Condition detection type is set to \"Exact\", meaning it
-        will only be verified at its capture position.\n\nTo win this game, we need verify the same Condition, but on
-        the whole screen.\n\nClick on the detection type drop down menu to display all detections types.</string>
+    <string name="message_tutorial_2_step_7">Hiện tại, loại phát hiện Điều kiện được đặt thành "Chính xác", có nghĩa là
+    nó chỉ được xác minh tại vị trí chụp của nó.\n\nĐể chiến thắng trò chơi này, chúng ta cần xác minh cùng một Điều kiện, nhưng trên
+    toàn bộ màn hình.\n\nNhấn vào menu thả xuống loại phát hiện để hiển thị tất cả các loại phát hiện.</string>
 
-    <string name="message_tutorial_2_step_8">Select the \"Whole screen\" type to detect the blue character anywhere on
-        the screen.</string>
-    <string name="message_tutorial_2_step_secondary_8">Detecting on the whole screen takes more time that the exact
-        position, keep that in mind when your Scenario execution timing is important.</string>
+    <string name="message_tutorial_2_step_8">Chọn loại "Toàn màn hình" để phát hiện nhân vật màu xanh ở bất kỳ nơi nào trên
+    màn hình.</string>
+    <string name="message_tutorial_2_step_secondary_8">Phát hiện trên toàn bộ màn hình mất nhiều thời gian hơn so với vị trí chính xác, hãy nhớ điều này khi thời gian thực thi Kịch bản của bạn quan trọng.</string>
 
-    <string name="message_tutorial_2_step_9">That\'s it!\nWe only needed to change the detection type in order for
-        your Condition to suits our needs.\n\nClick on the save button to register it and return to the Event
-        configuration dialog.</string>
+    <string name="message_tutorial_2_step_9">Đó là tất cả! Chúng ta chỉ cần thay đổi loại phát hiện để
+    Điều kiện của bạn phù hợp với nhu cầu của chúng tôi.\n\nNhấn vào nút lưu để đăng ký nó và trở lại hộp thoại cấu hình Sự kiện.</string>
 
-    <string name="message_tutorial_2_step_10">Your Condition image is now updated!\n\nIn this state, the scenario will
-        now execute a click every time the blue character is visible anywhere on the screen, but this click will be at
-        the same position, the one selected during the previous tutorial. So, we need to update our Action.\n\n
-        Click on the Actions tab to display the Actions list.</string>
+    <string name="message_tutorial_2_step_10">Bức ảnh Điều kiện của bạn đã được cập nhật!\n\nTrong trạng thái này, kịch bản sẽ
+    thực hiện một nhấp chuột mỗi khi nhân vật màu xanh được nhìn thấy ở bất kỳ nơi nào trên màn hình, nhưng nhấp chuột này sẽ ở
+    cùng một vị trí, vị trí được chọn trong bài hướng dẫn trước đó. Vì vậy, chúng ta cần cập nhật Hành động của chúng tôi.\n\nNhấn vào tab Hành động để hiển thị danh sách Hành động.</string>
 
-    <string name="message_tutorial_2_step_11">We still want to execute a single click, but this time, we want to click
-        on the Condition and not a fixed position.\n\nAs this is still one click, we still need only one Action, so
-        let\'s edit your previous click.\n\nClick on your Action to start editing it.</string>
+    <string name="message_tutorial_2_step_11">Chúng ta vẫn muốn thực hiện một nhấp chuột duy nhất, nhưng lần này, chúng ta muốn nhấp chuột
+    vào Điều kiện và không phải là một vị trí cố định.\n\nVì vẫn là một nhấp chuột, chúng ta vẫn chỉ cần một Hành động, vì vậy hãy chỉnh sửa nhấp chuột trước của bạn.\n\nNhấn vào Hành động của bạn để bắt đầu chỉnh sửa nó.</string>
 
-    <string name="message_tutorial_2_step_12">Currently, the Click Action \"Click on\" is set to \"Selected position\",
-        meaning you have to manually set the position to be clicked. Let\'s see what other options are available.\n\n
-        Click on the \"Click on\" drop down menu to display all options.</string>
+    <string name="message_tutorial_2_step_12">Hiện tại, Hành động Nhấp chuột "Nhấp vào" được đặt thành "Vị trí được chọn",
+    có nghĩa là bạn phải thiết lập vị trí được nhấp vào một cách thủ công. Hãy xem xem có những lựa chọn nào khác có sẵn.\n\n
+    Nhấn vào menu thả xuống "Nhấp vào" để hiển thị tất cả các tùy chọn.</string>
 
-    <string name="message_tutorial_2_step_13">The other choice is \"Condition\", meaning the Action will click on a
-        detected Condition coordinates.\n\nThat`s exactly what we need to beat the game. Every time the blue character
-        will be detected, this Action will click on it.\n\nSelect it to use it in your Action.</string>
+    <string name="message_tutorial_2_step_13">Lựa chọn khác là "Điều kiện", có nghĩa là Hành động sẽ nhấp vào tọa độ của Điều kiện được phát hiện.\n\n
+    Đó chính xác là những gì chúng ta cần để chiến thắng trò chơi. Mỗi khi nhân vật màu xanh được phát hiện, Hành động này sẽ nhấp vào nó.\n\nChọn nó để sử dụng trong Hành động của bạn.</string>
 
-    <string name="message_tutorial_2_step_14">Click on the Condition selector option to select which detected condition
-        to click on.\nWe need to specify it because we can have multiple Conditions in our Event.</string>
+    <string name="message_tutorial_2_step_14">Nhấn vào tùy chọn chọn Điều kiện để chọn điều kiện phát hiện nào
+    để nhấp vào.\nChúng ta cần chỉ định nó vì chúng ta có thể có nhiều Điều kiện trong Sự kiện của chúng ta.</string>
 
-    <string name="message_tutorial_2_step_15">For our use case it is easy, we only have one condition, the blue character.\n\n
-        Select it to click on this Condition when it is detected on your screen.</string>
+    <string name="message_tutorial_2_step_15">Đối với trường hợp sử dụng của chúng ta, điều này rất dễ dàng, chúng ta chỉ có một điều kiện, nhân vật màu xanh.\n\n
+    Chọn nó để nhấp vào Điều kiện này khi nó được phát hiện trên màn hình của bạn.</string>
 
-    <string name="message_tutorial_2_step_16">That\'s it!\nYour Click Action is now correctly configured to beat the
-        game.\n\nClick on the save button to register it and return to the Event configuration dialog.</string>
+    <string name="message_tutorial_2_step_16">Đó là tất cả! Hành động Nhấp chuột của bạn bây giờ được cấu hình đúng để chiến thắng
+    trò chơi.\n\nNhấn vào nút lưu để đăng ký nó và trở lại hộp thoại cấu hình Sự kiện.</string>
 
-    <string name="message_tutorial_2_step_17">You have updated the Condition and your Action, there is nothing more to
-        do.\n\nClick on the save button to register it and return to the Scenario dialog.</string>
+    <string name="message_tutorial_2_step_17">Bạn đã cập nhật Điều kiện và Hành động của bạn, không còn gì nữa để
+    làm.\n\nNhấn vào nút lưu để đăng ký nó và trở lại hộp thoại Kịch bản.</string>
 
-    <string name="message_tutorial_2_step_18">One last save to register your new changes in the database and close the
-        configuration dialogs.</string>
+    <string name="message_tutorial_2_step_18">Một lần lưu cuối cùng để đăng ký các thay đổi mới của bạn trong cơ sở dữ liệu và đóng các
+    hộp thoại cấu hình.</string>
 
-    <string name="message_tutorial_2_step_19">Your Scenario is now configured to beat this new tutorial.\n\nStart the
-        detection with the floating menu play button and then, start the game.</string>
+    <string name="message_tutorial_2_step_19">Kịch bản của bạn hiện đã được cấu hình để đánh bại bài hướng dẫn mới này.\n\nBắt đầu
+    nhận dạng với nút chơi trên thanh menu nổi và sau đó, bắt đầu trò chơi.</string>
 
-    <string name="message_tutorial_2_step_20">Congratulations!\n\nYou now know how to track a still or moving single
-        target, but there is a lot more to learn!.</string>
+    <string name="message_tutorial_2_step_20">Chúc mừng!\n\nBây giờ bạn đã biết cách theo dõi một mục tiêu đứng yên hoặc di chuyển, nhưng còn rất nhiều điều để học!</string>
 
 
     <!-- Two still targets press when both are visible tutorial -->
-    <string name="item_title_tutorial_3">Combine multiple conditions</string>
-    <string name="item_desc_tutorial_3">Create and combine multiple conditions for your event</string>
-    <string name="message_tutorial_3_game_instructions">Click on the blue button only when the red button is visible</string>
+    <string name="item_title_tutorial_3">Kết hợp nhiều điều kiện</string>
+    <string name="item_desc_tutorial_3">Tạo và kết hợp nhiều điều kiện cho sự kiện của bạn</string>
+    <string name="message_tutorial_3_game_instructions">Chỉ nhấp vào nút màu xanh khi nút màu đỏ hiển thị</string>
 
-    <string name="message_tutorial_3_step_1">Let\'s change the rules of the game again. The blue target has stopped moving,
-        but now it should only be clicked when the red target is visible.\n\nFirst, start the game and check if you can win
-        by yourself.</string>
+    <string name="message_tutorial_3_step_1">Hãy thay đổi luật chơi một lần nữa. Mục tiêu màu xanh đã ngừng di chuyển,
+    nhưng bây giờ nó chỉ nên được nhấp khi mục tiêu màu đỏ hiển thị.\n\nĐầu tiên, bắt đầu trò chơi và kiểm tra xem bạn có thể chiến thắng
+    một mình không.</string>
 
-    <string name="message_tutorial_3_step_3">Once again, it seems impossible to win manually, so let\'s use Smart
-        AutoClicker.\n\nYour scenario for the previous tutorial have been kept and load for this tutorial, but we will
-        need to change a few parameters in order to win this new game.\n\nClick on the Scenario configuration icon to
-        start updating your new scenario.</string>
+    <string name="message_tutorial_3_step_3">Một lần nữa, dường như không thể chiến thắng bằng cách thủ công, vì vậy hãy sử dụng Smart
+    AutoClicker.\n\nKịch bản của bạn cho bài hướng dẫn trước đã được giữ lại và tải lên cho bài hướng dẫn này, nhưng chúng ta sẽ cần thay đổi một số tham số
+    để chiến thắng trò chơi mới này.\n\nNhấn vào biểu tượng cấu hình Kịch bản để bắt đầu cập nhật kịch bản mới của bạn.</string>
 
-    <string name="message_tutorial_3_step_4">We still want to click on the blue target, but only when red on is visible.\n
-        So we need to add a condition for this red target in our Event.\n\nClick on your previously created event to edit it.</string>
+    <string name="message_tutorial_3_step_4">Chúng ta vẫn muốn nhấp vào mục tiêu màu xanh, nhưng chỉ khi mục tiêu màu đỏ hiển thị.\n
+    Vì vậy, chúng ta cần thêm một điều kiện cho mục tiêu màu đỏ trong Sự kiện của chúng ta.\n\nNhấn vào sự kiện đã được tạo trước đó của bạn để chỉnh sửa nó.</string>
 
-    <string name="message_tutorial_3_step_5">We will combine several conditions, so we need to check the Condition operator
-        for this event.\n\nThe Condition operator indicates how multiples conditions will be interpreted together.\n
-        Click on the dropdown selector to see the options for this operator.</string>
+    <string name="message_tutorial_3_step_5">Chúng ta sẽ kết hợp nhiều điều kiện, vì vậy chúng ta cần kiểm tra Toán tử Điều kiện
+    cho sự kiện này.\n\nToán tử Điều kiện chỉ ra cách nhiều điều kiện sẽ được hiểu cùng nhau.\nNhấn vào danh sách thả xuống để xem các tùy chọn cho toán tử này.</string>
 
-    <string name="message_tutorial_3_step_6">\'One\' means only one of the Conditions for this Event must be fulfilled in order
-        to execute the Actions.\n\n\'All\' means all Conditions for this Event must be fulfilled in order to execute the Actions.
-        \n\nAs we want to detect if two things are displayed together, we will use \'All\'</string>
+    <string name="message_tutorial_3_step_6">"Một" có nghĩa là chỉ một trong số các Điều kiện cho sự kiện này phải được thỏa mãn để thực hiện Hành động.\n\n
+    "Tất cả" có nghĩa là tất cả các Điều kiện cho sự kiện này phải được thỏa mãn để thực hiện Hành động.\n\nVì chúng ta muốn phát hiện xem hai điều kiện có được hiển thị cùng nhau không, nên chúng ta sẽ sử dụng "Tất cả".</string>
 
-    <string name="message_tutorial_3_step_7">Now we need to update our Conditions.\n\nClick on the Conditions tab to display
-        the Conditions list.</string>
+    <string name="message_tutorial_3_step_7">Bây giờ chúng ta cần cập nhật các Điều kiện của chúng ta.\n\nNhấn vào tab Điều kiện để hiển thị
+    danh sách Điều kiện.</string>
 
-    <string name="message_tutorial_3_step_8">The previous Condition of detecting the blue target is still correct, but we need
-        a new one for the red target.\n\nClick on the create Condition button to create a new Condition for it.</string>
+    <string name="message_tutorial_3_step_8">Điều kiện trước đó của việc phát hiện mục tiêu màu xanh vẫn là đúng, nhưng chúng ta cần
+    một cái mới cho mục tiêu màu đỏ.\n\nNhấn vào nút tạo điều kiện để tạo một điều kiện mới cho nó.</string>
 
-    <string name="message_tutorial_3_step_9">Just like for the blue target, start the game in order to show the red target.
-        Once it is visible, take a screenshot of it!</string>
-    <string name="message_tutorial_3_step_secondary_9">Use the capture button in the floating menu to take the screenshot.</string>
+    <string name="message_tutorial_3_step_9">Giống như cho mục tiêu màu xanh, bắt đầu trò chơi để hiển thị mục tiêu màu đỏ.
+    Khi nó hiển thị, hãy chụp ảnh của nó!</string>
+    <string name="message_tutorial_3_step_secondary_9">Sử dụng nút chụp trong menu nổi để chụp ảnh.</string>
 
-    <string name="message_tutorial_3_step_10">Is your screenshot containing the red target? You can crop it in order to only
-        get the part that is interesting for the detection, the red target.</string>
-    <string name="message_tutorial_3_step_secondary_10">If your screenshot does not contains the red target, you can
-        press this button to take a new one.</string>
+    <string name="message_tutorial_3_step_10">Ảnh chụp của bạn có chứa mục tiêu màu đỏ không? Bạn có thể cắt nó để chỉ
+    lấy phần quan trọng cho việc phát hiện, mục tiêu màu đỏ.</string>
+    <string name="message_tutorial_3_step_secondary_10">Nếu ảnh chụp của bạn không chứa mục tiêu màu đỏ, bạn có thể
+    nhấn vào nút này để chụp ảnh mới.</string>
 
-    <string name="message_tutorial_3_step_11">Your Condition image is now recorded!\n\nAs the red target isn\'t moving, we
-        can keep the default configuration.\nClick on the save button to register it and return to the Event
-        configuration dialog.</string>
+    <string name="message_tutorial_3_step_11">Hình ảnh Điều kiện của bạn đã được ghi lại!\n\nVì mục tiêu màu đỏ không di chuyển, chúng ta có
+    thể giữ cấu hình mặc định.\nNhấn vào nút lưu để đăng ký nó và quay lại hộp thoại cấu hình Sự kiện.</string>
 
-    <string name="message_tutorial_3_step_12">We now have two Conditions, one for each targets, and the Actions will be executed
-        only if both are detected.\n\nClick on the Actions tab to display the Action list for our Event.</string>
+    <string name="message_tutorial_3_step_12">Bây giờ chúng ta có hai Điều kiện, một cho mỗi mục tiêu, và các Hành động sẽ được thực hiện
+    chỉ khi cả hai được phát hiện.\n\nNhấn vào tab Hành động để hiển thị danh sách Hành động cho Sự kiện của chúng ta.</string>
 
-    <string name="message_tutorial_3_step_13">The action is already set to click on the blue character, and it will only be
-        executed when the blue and the red characters are visible together.\n\nThis is exactly the behaviour we need to beat the
-        game, so no need to edit our click Action.\n\nClick on the save button to register your changes.</string>
+    <string name="message_tutorial_3_step_13">Hành động đã được thiết lập để nhấp vào nhân vật màu xanh, và nó chỉ được thực hiện
+    khi cả nhân vật màu xanh và nhân vật màu đỏ được hiển thị cùng nhau.\n\nĐây chính xác là hành vi chúng ta cần để chiến thắng
+    trò chơi, vì vậy không cần chỉnh sửa Hành động nhấp của chúng ta.\n\nNhấn vào nút lưu để đăng ký các thay đổi của bạn.</string>
 
-    <string name="message_tutorial_3_step_14">All changes must be saved in your scenario in order to be registered.\n\Click
-        on the save button to save your changes.</string>
+    <string name="message_tutorial_3_step_14">Tất cả các thay đổi phải được lưu trong kịch bản của bạn để được đăng ký.\n\nNhấn
+    vào nút lưu để lưu các thay đổi của bạn.</string>
 
-    <string name="message_tutorial_3_step_15">We are ready to win this game!\n\nClick on the start button to start the
-        detection and then, start the game.</string>
+    <string name="message_tutorial_3_step_15">Chúng ta đã sẵn sàng để chiến thắng trò chơi này!\n\nNhấn vào nút bắt đầu để bắt đầu
+    nhận dạng và sau đó, bắt đầu trò chơi.</string>
 
-    <string name="message_tutorial_3_step_16">Congratulations!\n\nYou now know how to combine multiple Conditions for an Event,
-        but there is a lot more to learn!</string>
+    <string name="message_tutorial_3_step_16">Chúc mừng!\n\nBây giờ bạn đã biết cách kết hợp nhiều Điều kiện cho một Sự kiện,
+    nhưng vẫn còn rất nhiều điều để học!</string>
 
     <!-- Two still targets press when only one is visible tutorial -->
-    <string name="item_title_tutorial_4">Negative conditions</string>
-    <string name="item_desc_tutorial_4">Verify that something is not displayed before executing an action</string>
+    <string name="item_title_tutorial_4">Điều kiện phủ định</string>
+    <string name="item_desc_tutorial_4">Xác minh rằng một điều gì đó không được hiển thị trước khi thực hiện một hành động</string>
 
 
     <!-- Two moving targets press in order tutorial -->
-    <string name="item_title_tutorial_5">Multiple events scenario</string>
-    <string name="item_desc_tutorial_5">Learn how to combine multiple events to achieve complex automation</string>
+    <string name="item_title_tutorial_5">Kịch bản nhiều sự kiện</string>
+    <string name="item_desc_tutorial_5">Học cách kết hợp nhiều sự kiện để đạt được tự động hóa phức tạp</string>
 
 </resources>

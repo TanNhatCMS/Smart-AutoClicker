@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-* Copyright (C) 2022 Kevin Buzeau
+* Copyright (C) 2023 Kevin Buzeau
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -15,13 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<resources>
-    <string name="default_event_name">Evento Default</string>
-    <string name="default_click_name">Clicca</string>
-    <string name="default_swipe_name">Scorri</string>
-    <string name="default_pause_name">Attendi</string>
-    <string name="default_intent_name">Intento</string>
-    <string name="default_toggle_event_name">Cambia Evento</string>
-    <string name="default_condition_name">Condizione</string>
-
-</resources>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:color="?attr/colorOnSurface" />
+    <item android:color="?attr/colorOnPrimary" />
+</selector>
